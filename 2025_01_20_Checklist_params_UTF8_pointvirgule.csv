@@ -1,0 +1,115 @@
+﻿Priority;Billing_Agent_Mail_Domain;Billing_Agent_Keyword;Billing_Agent;CDR_param_1;CDR_param_2;CDR_param_3;RFID_param_1;RFID_param_2;RFID_param_3;RFID_param_4;EVSE_param_1;EVSE_param_2;StartDate_param;Quantity_param;Price_param
+1;;Bemo;Bemo;Cpo_Session_Id;Hub_Session_Id;Cdr_Id;Token_Uid;Vehicle_Id;;;Evse_Id;;Session_StartDate;Quantity;Cpo_Bemo_Price
+2;;Tevgo;Tevgo;ID CDR;ID Transaction;IDToken;;;;;;;Date/Heure début session;Quantité énergie;Montant HT
+3;allego.eu;Allego;Allego;CDR_ID;;;Authentication_ID;Contract_ID;;;Charge_Point_ID;;Start_datetime;Volume;Calculated_Cost
+4;;Hamburger;Hamburg Energie GmbH;CDRID;;;AuthID;OCPPTransactionID;;;ChargingPointID;;StartTime;Quantity;Amount
+5;izivia.com;Izivia;Izivia;Id session Gireve;Id charge MbP;;IdConsumption;Id charge MbP;Code Media;;ExternalIdPdC;;Debut charge;Energie (Wh);Prix Conso HT
+6;greenflux.com;GreenFlux;GreenFlux Assets B.V.;CDR_ID;;;Authentication_ID;;;;ExternalId;Charge_Point_ID;Start_datetime;Volume;CalculatedCost
+7;;Bouygues;Bouygues Energies et Services (Alize Liberte);ID_Gireve;ID_CPO;ID_EMSP;UserID;;;;EVSEID;;DébutSession;Energie;Montant HT
+8;ionity.eu;Ionity;Ionity;;;;;;;;;;;;
+9;freshmile.com;Freshmile;Freshmile Services;External ref;Reference;;Auth id;;;;Evse emi3;;Start datetime;Consumption (Wh);Price excl. VAT
+10;siplec.leclerc;Freshmile;Freshmile Services;External ref;Reference;;Auth id;;;;Evse emi3;;Start datetime;Consumption (Wh);Price excl. VAT
+11;sent-via.netsuite.com;Fastned;Fastned;CDR_ID;;;Authentication_ID;Contract_ID;;;Charge_Point_ID;;Start_datetime;Volume;Calculated_Cost
+12;fastnedcharging.com;Fastned;Fastned;CDR_ID;;;Authentication_ID;Contract_ID;;;Charge_Point_ID;;Start_datetime;Volume;Calculated_Cost
+13;fastned.nl;Fastned;Fastned;CDR_ID;;;Authentication_ID;Contract_ID;;;Charge_Point_ID;;Start_datetime;Volume;Calculated_Cost
+14;lastmilesolutions.com;Threeforce;Threeforce BV;CDR_ID;;;Authentication_ID;;;;Charge_Point_ID;;Start_datetime;Volume;Calculated_Cost
+15;smartlab-gmbh.de;Smartlab;Smartlab Innovations;CDRID;TRANSACTIONID;;DB_ID;TRANSACTIONID;;;EVSEID;;STARTDATETIME;QUANTITY_KWH;BETRAG
+16;;Optimile;Optimile;Cdr_Id;;;Authentication_Id;;;;Charge_Point_Id;;Start_Datetime;Volume;Calculated_Cost
+17;enovos.eu;Enovos;Enovos;Session Id Gireve;;;User Id;;;;EVSE Id;;Beginning Date;Energy (kW.h);Billing Value
+18;;EVBox;EVBox;cdr_id;;;authentication_id;;;;chargepoint_id;;start_datetime;volume;calculated_cost
+19;road.io;Eflux;E-Flux;CDR_ID;;;Authentication_ID;Contract_ID;;;Charge_Point_ID;;Start_datetime;Volume;Calculated_Cost
+20;virta.global;Liikennevirta;Liikennevirta Oy (VIRTA);session_id_cpo;session_id_gireve;charge_id;rfid;;;;evse_id;;start_time;energy_kwh;EUR_price
+21;;Eneco;ENECO eMobility B.V;;;;;;;;;;;;
+22;vattenfall.com;Vattenfall;Vattenfall;CDR_ID;;;Authentication_ID;;;;Charge_Point_ID;;Start_datetime;Volume;Calculated_Cost
+23;chargepoint.com;ChargePoint;ChargePoint Network NL*CPI;CDR ID;;;Invoice #;;;;Port Contract ID;;Session Start Time;Energy;Fee (excluding VAT)
+24;htb.solutions;ChargePoint;ChargePoint Network NL*CPI;CDR ID;;;Invoice #;;;;Port Contract ID;;Session Start Time;Energy;Fee (excluding VAT)
+25;e55c.com;Electric55;Electric 55 Charging FR*55C;Session;Authorization Id;;Badge / Evco ID;;;;ID;Plug;Date;Consumption;Prix HT
+26;;EVCars;EV Cars Sas;CDR_ID;;;Authentication_ID;;;;Charge_Point_ID;;Start_datetime;Volume;Calculated_Cost
+27;shell.com;Shell;Shell;CDR_ID;;;Authentication ID;Service Provider ID;;;Charge Point ID;;Start date and time;Volume;Calculated cost (exclu. VAT)
+28;;ShellPlc;Shell PLC;CDR_ID;;;Authentication ID;;;;Charge Point ID;;Start date and time;Volume;Calculated cost (excl. VAT)
+29;shellrecharge.com;ShellRecharge;Shell Recharge;Transaction ID;;;Start Card;External Card Number;Account;;Evse Id;;Start Time;Charge Amount;Net
+30;;Qovoltis;Qovoltis;GIREVE_Session_id;;;ID Client;;;;evse_id;;start_date_time;kWh;total_cost
+31;go-electra.com;Electra;ELECTRA;CDR ID (OCPI);HubjectSessionID (OICP);GIREVE AUTH REF (OCPI);User Token;Session ID;;;EVSE ID;Station ID (OCPI);Charge Start Time;Energy (Wh);Cost (EUR with VAT)
+32;ze-watt.com;Zewatt;ZE-WATT | FR*ZWO;Gireve ID;;;User ID;;;;EVSE ID;;Starting date;Energy (Wh);Price (exc VAT)
+33;;Bluelinc;Blulinc - BE*BLU;;;;;;;;;;;;
+34;;Seolis;SÉOLIS | FR*SEO;Session Id Gireve;Session Id eMSP;;User Id;;;;EVSE Id;;Beginning Date;Energy (kW,h);Prix
+35;chargit.nl;ChargIt;ChargeIT mobility Network;CDR_ID;;;Authentication_ID;Contract_ID;;;Charge_Point_ID;;Start_datetime;Volume;Calculated_Cost
+36;eu-sender.zohobooks.com;Mobilygreen;Mobilygreen | FR*MW1;;;;User Id;Authorization Id;;;Evse emi3;;Beginning Date;Energy;Amount
+37;wirelane.com;Wirelane;Wirelane GmbH;roaming_cdr_id;scm_id;;identification;;;;evseid;;session_begin;kwh;price_net
+38;;Gireve;Gireve;Sesssion_GireveId;Session_CPOId;;User_AnonymisedId;;;;EVSE_Id;;Session_StartDateTime;Energy(kW.h);Invoiced_Amount
+39;mer.eco;Mer;Mer Austria GmbH;Hubject Session Id;;;ID;;;;Evse Id;;Start Date;Total kWh;Total Cost net
+40;stadtwerke-norderstedt.de;StadtwerkeNorderstedt;Stadtwerke Norderstedt;transparencyCode;ocppTransactionId;;rfid;uid;;;evseId;;chargingStart ISO-8601;energyConsumptionInKWh;b2bTotalCost
+41;;StadtwerkeWedel;StadtwerkeWedel;CDRID;OCPPTransactionID;;AuthID;OCPPTransactionID;;;ChargingPointID;;StartTime;Quantity;Amount
+42;ewe-go.de;Ewego;EWE Go GmbH;;;;;;;;;;;;
+43;mail.jortt.nl;RoboCharge;Robo Charge B.V.;CDR_ID;Gireve_ID;;Authentication_ID;;;;Charge_Point_ID;;Start_datetime;Volume;Calculated_Cost
+44;robo-charge.com;RoboCharge;Robo Charge B.V.;CDR_ID;Gireve_ID;;Authentication_ID;;;;Charge_Point_ID;;Start_datetime;Volume;Calculated_Cost
+45;;Eon;E.ON Drive;Ladevorgang;;;;;;;Säulen-ID;;Ladebeginn;Energie (kWh);Gesamtbetrag (EUR) mit 5 Nachkommastellen
+46;;Wemag;Wemag AG;;;;;;;;;;;;
+47;zunder.com;Grupo;Grupo EasyCharger - ES*ZUN;tag;transaction_id;;tag;transaction_id;;;equipo;;fecha_inicio;kWh;importe
+48;support.q8electric.be;KuwaitBelgium;Kuwait Petroleum (Belgium) N.V - BE*KUP;CDR_ID;;;Authentication_ID;;;;Charge_Point_ID;;Start_datetime;Volume;Calculated_Cost
+49;;Laadnet;Rexel Nederland B.V - Laadnet Network - NL*LNT;Toegangssleutel;ID Opladen;UST ID;ID Opladen;Toegangssleutel;UST ID;;EVSE-ID;;Het opladen is begonnen op;Verbruik (Wh);Totale prijspositie
+50;;Ubitricity;Ubitricity Gesellschaft für verteilte Energiesysteme GmbH;Session ID;Platform Session ID;;Session ID;Platform Session ID;;;EVSE ID;;Plugin Start Time;Consumption in Kwh;Total Fee
+51;meaenergies.com;MeaEnergies;MEA Energies (e-ChargeNow) FR*ECN;Session Id Gireve;Session Id CPO;Session Id eMSP;User Id;;;;EVSE Id;;Beginning Date;Energy (kW.h);Billing value
+52;qwello.eu;Qwello;Qwello;romaing_session_id;id;;uid;;;;evse_id;;start_time;consumption_watts;total_cost
+53;powerdot.eu;Powerdot;PowerDot;;;;driver_id;;;;sk_charge;;start_date;energy_consumption;revenue_wo_vat
+54;bepower.com;Becharge ;Be Charge France ;hubject_session_id;;;Uid;;;;;;Charge Start;Energy (kWh);Total Cost (€)
+55;messaging.porsche.com;Porsche;Porsche Sales;Hubject Session ID;itemId;;itemId;invoiceIdent;;;EVSE-ID;;start;amount;netPrice
+56;lichtblick.de;LichtBlick;LichtBlick eMobility;Token-UID;Sitzungs-ID;;Token-UID;Sitzungs-ID;;;EVSE-ID;;Start Datum;Verbrauch in kWh;Gesamtkosten
+57;m8mit.de;m8mit;MSU Solutions GmbH;CDRID;TransactionID;RoamingSessionID;RFID;AuthID;TransactionID;;ChargingPointID;;StartTime;Quantity;Amount
+58;mennekes-ativo.de;Mennekes;Mennekes;SessionID;;;Media;;;;EVSEID;;sessionstarttime;kWh;EURO
+59;wattify.be;Wattify;Wattify BV;Gireve ID;;;EMSP ID;CPO ID;;;EvseId;;SessionStart;ConsumedEnergy [kWh];Netto fee
+60;elli.eco;Elli;Elli;e_roaming_authorization_reference;partner_product_id;;;;;;public_evse_id;;start_date_time;total_energy_kwh;cpo_price_eur
+61;portal.vaylens.com;Vaylens;vaylens GmbH;hubject.sessionId;;;id;shortId;;;chargingPoint.evseId;;startedAt;totalEnergy;totalCost
+62;yesss-fr.com;Yes55;YES55;Id de Session;;;;;;;Connecteur Id;;Date;WATT;Montant HT
+63;monta.app;Monta;Monta;;;;;;;;;;;;
+64;electromaps.com;Electromaps;Electromaps;gireve_id;external_session_id;;;;;;charge_box_id;;start_time;energy_kwh;amount_with_tax
+65;wenea.com;Wenea;Wenea;CDR ID;;;Session ID;Session Auth Ref.;;;Evse ID;Evse UID;Start Date;Energy (kWh);Total Cost (excl_vat)
+66;energytix.eu;Energytix;Energytix.solutions;CDR_ID;;;Authentication_ID;;;;Charge_Point_ID;;Start_datetime;Volume;Calculated_Cost
+67;mail03.totalenergies.com;TotalEnergiesMarketing;TotalEnergiesMarketing;ID CDR;Transaction ID;Token ID;Token ID;;;;Borne ID;;Session Begin Date;Quantity Energie;Amount Excl VAT
+68;totalenergies.com;TotalEnergiesMarketing;TotalEnergiesMarketing;ID CDR;Transaction ID;Token ID;Token ID;;;;Borne ID;;Session Begin Date;Quantity Energie;Amount Excl VAT
+69;stadtwerke-stuttgart.de;StadtwerkeStuttgart;StadtwerkeStuttgart;SessionID;;;;;;;EVSEID;;sessionstarttime;kWh;EURO
+70;stw-winsen.de;StadtwerkeWinsen;StadtwerkeWinsen;;;;;;;;;;;;
+71;;Acciona;Acciona;SessionID;CPOPartnerSessionID;ProcessID;UID;;;;EVSEID;;Session Start;Consumed Energy;Total Cost
+72;;Atlante;Atlante;id;invoiceProposalId;Roaming Platform connection Id;UID;authReference;;;evseId;;startDateTime;totalEnergyInKwh;totalPrice
+73;;Avia;Avia;Avia;ExternalReference;;Authentication_ID;;;;Charge_Point_ID;;Start_datetime;Volume;Calculated_Cost
+74;;Awesems;Awesems;CDR_ID;;;Authentication_ID;;;;Charge_Point_ID;;Start_datetime;Volume;Calculated_Cost
+75;BlinkCharging.com;Blink;Blink;sessionId;;;tokenCode;;;;tokenSubscription;;sessionStart;consumptionKwh;priceRecCost
+76;axonaut.fr;Borneco;Borneco;id;authorizationID;;userID;tagID;visualTagID;;user;;startDate;totalConsumptionkWh;price
+77;factomos.io;Bump;Bump;Session Id Gireve;Session Id eMSP;;User Id;;;;EVSE Id;;Beginning Date;Energy (kW,h);Price
+78;;Chargecloud;ChargeCloud GmbH;Transaction-ID;Roaming-Session-ID;Authenticator;Client Transaction ID;;;;EVSE-ID;;Start;Consumption (kWh);Price (net)
+79;citycharging.nl;City;City Charging;CDR_ID;ExternalReference;;Authentication_ID;Contract_ID;;;Charge_Point_ID;;Start_datetime;Volume;Calculated_Cost
+80;clem-e.com;Clem;CLEM' SAS MOPEASY | FR*A03;Session Id Gireve;Session Id CPO;Session Id eMSP;User Id;;;;EVSE Id;;Beginning Date;Energy (kW.h);Billing value
+81;comfortcharge.de;ComfortCharge;ComfortCharge GmbH;CDR-ID;Session ID;;Unique User ID;;;;Ladepunkt ID;;Ladebeginn;Energiemenge;Nettokosten
+82;;Connectned;Connectned;CDR_ID;;;Authentication_ID;;;;Charge_Point_ID;;Start_datetime;Volume;Calculated_Cost
+83;;Diego;Diego;CDR_ID;;;Authentication_ID;;;;Charge_Point_ID;;Start_datetime;Volume;Calculated_Cost
+84;driveco.com;Driveco;DRIVECO;CDR;Session ID;Gireve ID;transactionRef;;;;EVSE ID;;startDate;energy (Wh);transactionPrice (euros HT)
+85;;Duferco;Duferco;ID CDR;;;Transaction ID;;;;Station EVSEID;;Start DateTime;Quantity;Usage Total (VAT)
+86;;Enbw;Enbw;cdrid;RoamingSessionId;;directid;;;;;;Startdatetimeiso;Ladeenergie_kwh;Gesamtkosten
+87;;Enercity;Enercity AG;SessionID;;;UID;;;;EVSEID;;Session Start;Consumed Energy in kWh;Total Costs in EUR
+88;eranovum.energy;Eranovum;Eranovum E-mobility;Session Id Gireve;;;User Id;;;;EVSE Id;;Beginning Date;Energy (kW.h);Billing value
+89;;Etotem;E-totem;Identifiant de Session GIREVE;;;Identifiant utilisateur;;;;Identifiant EMI3 de l'EVSE de la charge;;Date / heure de début de charge;Energie Délivrée (Wh);Montant TTC (€)
+90;;Freetox;Freetox;;;;;;;;;;;;
+91;;Ibderdrola;Ibderdrola;Session ID;;;Id Charging Point (IDPR);;;;     EVSE Id;;Date of starting recharge ;"Energy consumption
+(kWh) ";"Cost of the recharge to eMSP
+(€)"
+92;;komminakationsgateway;komminakationsgateway;Externe Transaktionskennung;OCPP Transaktionskennung;;Transaktionskennung;;;;EVSE-ID;;Beginn [UTC-Zeit];Energie [Wh];Netto [EUR]
+93;;Laadkompas;Laadkompas;CDR_ID;;;Authentication_ID;;;;Charge_Point_ID;;Start_datetime;Volume;Calculated_Cost
+94;;Mobilize;Mobilize;Partner Session ID;Gireve Session ID;;ID;Auth ID;;;Evseid;;Start Date (GMT);KWh;€ HT
+95;;MsuSolutions;MSU Solutions GmbH;;;;;;;;;;;;
+96;;Nexteneo;Nexteneo;Session Id Gireve;Session Id CPO;Session Id eMSP;User Id;;;;EVSE Id;;Beginning Date;Energy (kW.h);Billing value
+97;;Novaborne;Novaborne;Session Id Gireve;Session Id CPO;Session Id eMSP;User Id;;;;EVSE Id;;Beginning Date;Energy (kW.h);Montant en €
+98;;NRG;NRG;CDR_ID;;;Authentication_ID;;;;Charge_Point_ID;;Start_datetime;Volume;Calculated_Cost
+99;;Picoty;Picoty;;;;;;;;;;;;
+100;;Plugnroll;Plugnroll;SessionID;HubjectSessionId;;;;;;ChargPoint FriendlyCode;;ChargingFrom;Quantity;Amount
+101;;Rechargermonauto;Rechargermonauto;Session Id Gireve;;;User Id;;;;EVSE Id;;Beginning Date;Energy (kW,h);Billing value
+102;reev.com;Reev;Reev;;;;;;;;;;;;
+103;;Rse;Rse;Session Id Gireve;Session Id eMSP;;User Id;;;;EVSE Id;;Beginning Date;Energy (kW,h); Total HT 
+104;;SgaIndustrie;SgaIndustrie;Session Id Gireve;Session Id eMSP;;User Id;;;;EVSE Id;;Beginning Date;Energy (kW.h);Session Id eMSP
+105;;Siege;Siege;Session Id Gireve;Session Id eMSP;;User Id;;;;EVSE Id;;Beginning Date;Energy (kW.h);Montant
+106;;StellaPower;StellaPower;CDR_ID;;;Authentication_ID;;;;Charge_Point_ID;;Start_datetime;Volume;Calculated_Cost
+107;;Tap;TapElectric;CDR_ID;;;Authentication_ID;;;;Evse_UID;;Start_datetime;Volume;Calculated_Cost
+108;;TCSNL;TCSNL;;;;;;;;;;;;
+109;;TCSUK;TCSUK;CDR ID;;;Transaction ID;;;;Charge Point ID;;Begin Date session;Quantity energy;Amount Excluding VAT
+110;;Thales;Thales;;;;;;;;;;;;
+111;;Wien;Wien;;;;SessionID;;;;EVSEID;;sessionstarttime;kWh;EURO
+112;;ZEBorne;ZEBorne;external-id;evco-id;;external-authorization-id;;;;evse-id;;start-date;energy;cpo-price
